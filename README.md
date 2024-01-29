@@ -13,7 +13,10 @@
 # TimescaleDB Community Edition based on CrunchyData PostgreSQL
 
 Date: 29 Nov 2023
+
 Author: miah0x41
+
+![Docker Pulls](https://img.shields.io/docker/pulls/miah0x41/crunchy-pg-tsdb-community)
 
 ## Scope
 
@@ -219,6 +222,6 @@ SELECT add_compression_policy('hippos', compress_after => INTERVAL '60d');
 
 # License
 
-User should take care to understand the myriad of licenses involved. The contents of this repository is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). The artifacts generated are not!
+The user should take care to understand the myriad of licenses involved. The contents of this repository is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). The artifacts generated are not!
 
 The base image is from _CrunchyData_ and subject to their licenses as per the [Crunchy Data Container Suite](https://access.crunchydata.com/documentation/crunchy-postgres-containers/latest/) and most notably the _TimescaleDB Community Edition_ are subject to the [Timescale License](https://github.com/timescale/timescaledb/blob/main/tsl/LICENSE-TIMESCALE).
