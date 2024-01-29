@@ -1,5 +1,6 @@
 FROM registry.developers.crunchydata.com/crunchydata/crunchy-postgres:ubi8-15.5-0
 
+# Add label
 LABEL "org.opencontainers.image.authors"="miah0x41"
 
 # Select user
