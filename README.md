@@ -39,7 +39,7 @@ spec:
           shared_preload_libraries: timescaledb
 ```
 
-Connect to the cluster and using a `SUPERUSER` and confirm the library was loaded:
+Connect to the cluster using a `SUPERUSER` and confirm the library was loaded:
 
 ```sql
 -- Show libraries
